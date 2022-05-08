@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  
+  <title>Z.U.verse</title>
+  
+</head>
+<body>
+  <section class="section1">
+    <input type="checkbox" id="check">
+    <header>
+      <h2>
+        <a href="#" class="logo">
+          <img src="./img/logo.png" width="80px" height="80px" />
+        </a>
+      </h2>
+
+      <nav class="nav">
+        <a href="#home" id="btn1">Home</a>
+        <a href="#empresa" id="btn2">Empresa</a>
+        <a href="#colaborador" id="btn3">Colaborador</a>
+        <a href="#sobre" id="btn4">Sobre</a>
+        <a href="#contato" id="btn5">Contato</a>
+      </nav>
+      <label for="check">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </label>
+    </header>
+
+    <div class="content" id="home">
+      <div class="info">
+        <h2>Bem-Vindo ao<br>
+        <span>Z.U.</span>verse</h2>
+
+        <p>Seu escritório virtual em apenas um clique. No nosso metaverso você pode comprar 
+          novas salas virtuais, organizar reuniões totalmente digitais e até ter um encontro com 
+          a sua equipe. É o real no digital.
+        </p>
+
+        <a href="#" class="btn-inicio">Inscreva-se</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section2">
+    <div class="content2" id="empresa">
+      <div class="info2">
+        <h2>Para empresas</h2>
+
+        <p>A Z.U.verse é um metaverso pensado para aproximar colaboradores das mais variadas empresas.<br>
+        De salas individuais a ambientes compartilhados, aqui você cresce virtualmente e oferece o melhor
+          ao seu time. Expandir nunca foi tão fácil.
+        </p>       
+        
+        <a href="#" class="btn-inicio">Comece aqui</a>
+
+      </div>
+    </div>    
+  </section>
+
+  <section class="section3">
+    <div class="content3" id="colaborador">
+      <div class="info3">
+        <h2>Para colaboradores</h2>
+
+        <p>Recebeu um convite para aquela reunião importante na Z.U. e não dabe como participar? 
+          Comece criando seu avatar! É simples, rápido e muito divertido. Vamos nessa?
+        </p>       
+        
+        <a href="#" class="btn-inicio">Crie seu avatar</a>
+
+      </div>
+    </div>    
+  </section>
+
+  <section class="section4">
+    <div class="content4" id="sobre">
+      <div class="info4">
+        <h2>Sobre</h2>
+
+        <p>A Z.U.verse foi criada para aproximar colaboradores que hoje atuam no modelo home office.
+          Nossa proposta é trazer um universo totalmente virtual para que sua empresa tenha interatividade
+          entre o time. Ficou curioso? Clique abaixo e saiba mais!
+        </p>       
+        
+        <a href="#" class="btn-inicio">Saiba mais</a>
+
+      </div>
+    </div>    
+  </section>
+
+  <section class="section5">
+    <div class="content5" id="contato">
+      <div class="info5">
+
+        <h2>Contato</h2>
+        <p>Restou alguma dúvida? Preencha o campo abaixo e entraremos em contato.</p>
+
+        <input type="email" placeholder="e-mail"> 
+        
+        <button class="btn-inicio" type="submit" style="border: none;">Enviar</button>                     
+        
+      </div>
+    </div> 
+    
+    <div class="media-icons">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-discord"></i></a>
+    </div>
+  </section>
+
+  <script>
+    let btn1 = document.getElementById('home');
+    let btn2 = document.getElementById('empresa'); 
+    let btn3 = document.getElementById('colaborador'); 
+    let btn4 = document.getElementById('sobre'); 
+    let btn5 = document.getElementById('contato');  
+  </script>
+
+</body>
+</html>
