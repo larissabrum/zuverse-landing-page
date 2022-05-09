@@ -79,6 +79,26 @@ header .nav a:hover{
     
 }
 
+.btn-inicio{
+    color: rgb(12, 12, 12);
+    background-color: rgb(238, 201, 243);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+
+}
+
+.btn-inicio:hover{
+    background: rgb(33, 1, 39);
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
 .content{
     max-width: 650px;
     margin: 60px 100px;
@@ -107,25 +127,6 @@ header .nav a:hover{
     font-weight: 500;
     margin-bottom: 40px;
     color: #FFF;
-}
-
-.content  .btn-inicio{
-    color: #FFF;
-    background-color: rgb(34, 11, 37);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.3s;
-    transition-property: background;
-
-}
-
-.content .btn-inicio:hover{
-    background-color:  rgb(169, 158, 170);
-    color: #000000;
 }
 
 /* Content 2 */
@@ -177,25 +178,6 @@ header .nav a:hover{
     color: #FFF;
 }
 
-.content2  .btn-inicio{
-    color: rgb(12, 12, 12);
-    background-color: rgb(238, 201, 243);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.3s;
-    transition-property: background;
-
-}
-
-.content2 .btn-inicio:hover{
-    background: rgb(33, 1, 39);
-    color: #f5f5f5;
-}
-
 /* Section 3 */
 
 .section3 {
@@ -220,48 +202,6 @@ header .nav a:hover{
     z-index: 0;
     background: rgba(0, 0, 0, 0.6);
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-}
-
-.content3{
-    max-width: 650px;
-    margin: 60px 100px;
-    z-index: 1;
-}
-
-.content3 .info3 h2{
-    color: #FFF;
-    font-size: 55px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    line-height: 60px;
-    margin-bottom: 30px;
-}
-
-.content3 .info3 p{
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 40px;
-    color: #FFF;
-}
-
-.content3  .btn-inicio{
-    color: rgb(12, 12, 12);
-    background-color: rgb(238, 201, 243);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.3s;
-    transition-property: background;
-
-}
-
-.content3 .btn-inicio:hover{
-    background: rgb(33, 1, 39);
-    color: #f5f5f5;
 }
 
 /* Section 4 */
@@ -290,48 +230,6 @@ header .nav a:hover{
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
-.content4{
-    max-width: 650px;
-    margin: 60px 100px;
-    z-index: 1;
-}
-
-.content4 .info4 h2{
-    color: #FFF;
-    font-size: 55px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    line-height: 60px;
-    margin-bottom: 30px;
-}
-
-.content4 .info4 p{
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 40px;
-    color: #FFF;
-}
-
-.content4  .btn-inicio{
-    color: rgb(12, 12, 12);
-    background-color: rgb(238, 201, 243);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.3s;
-    transition-property: background;
-
-}
-
-.content4 .btn-inicio:hover{
-    background: rgb(33, 1, 39);
-    color: #f5f5f5;
-}
-  
 .media-icons{
     display: flex;
     justify-content: center;
@@ -365,53 +263,30 @@ header .nav a:hover{
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
-.content5{
-    max-width: 650px;
-    margin: 60px 100px;
-    z-index: 1;
-}
-
-.content5 .info5 h2{
-    color: #FFF;
-    font-size: 55px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    line-height: 60px;
-    margin-bottom: 30px;
-}
-
-.content5 .info5 p{
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 40px;
-    color: #FFF;
-}
-
-.content5  .btn-inicio{
-    color: rgb(12, 12, 12);
-    background-color: rgb(238, 201, 243);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.3s;
-    transition-property: background;
-
-}
-
-.content5 .btn-inicio:hover{
-    background: rgb(33, 1, 39);
-    color: #f5f5f5;
-}
-
 input{
     width: 400px;
     height: 40px;
     border-radius: 5px;
     border: none;
+}
+
+.mybtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: 5;
+}
+
+.mybtn a{
+    color: #FFF;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.mybtn a:hover{
+    transform: scale(1.5);
 }
   
 .media-icons{
@@ -447,7 +322,6 @@ label{
     z-index: 6;
     display: none;
 }
-
 
 
 /* Responsividade */
@@ -558,53 +432,6 @@ label{
 
     }
 
-    .content3 {
-        z-index: 1;
-    }
-
-    .content3 .info3 h2{
-        font-size: 40px;
-        line-height: 50px;
-        z-index: 1;
-    }
-
-    .content3 .info3 p{
-        font-size: 14px;
-        z-index: 1;
-
-    }
-
-    .content4 {
-        z-index: 1;
-    }
-
-    .content4 .info4 h2{
-        font-size: 45px;
-        line-height: 50px;
-        z-index: 1;
-    }
-
-    .content4 .info4 p{
-        font-size: 14px;
-        z-index: 1;
-
-    }
-
-    .content5 {
-        z-index: 1;
-    }
-
-    .content5 .info5 h2{
-        font-size: 45px;
-        line-height: 50px;
-        z-index: 1;
-    }
-
-    .content5 .info5 p{
-        font-size: 14px;
-        z-index: 1;
-
-    }
 }
 
 @media (max-width: 560px) {
@@ -629,32 +456,5 @@ label{
 
     .content2 .info2 p{
         font-size: 14px;        
-    }
-
-    .content3 .info3 h2{
-        font-size: 35px;
-        line-height: 40px;        
-    }
-
-    .content3 .info3 p{
-        font-size: 14px;        
-    }
-
-    .content4 .info4 h2{
-        font-size: 35px;
-        line-height: 40px;        
-    }
-
-    .content4 .info4 p{
-        font-size: 14px;
-    }
-
-    .content5 .info5 h2{
-        font-size: 35px;
-        line-height: 40px;
-    }
-
-    .content5 .info5 p{
-        font-size: 14px;
     }
 }
