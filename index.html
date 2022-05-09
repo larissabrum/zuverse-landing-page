@@ -10,7 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" type="imagem/png" href="img/icon.png" />
+
   
+
   <title>Z.U.verse</title>
   
 </head>
@@ -44,7 +47,7 @@
 
         <p>Seu escritório virtual em apenas um clique. No nosso metaverso você pode comprar 
           novas salas virtuais, organizar reuniões totalmente digitais e até ter um encontro com 
-          a sua equipe. É o real no digital.
+          a sua equipe. Trabalhar nunca foi tão divertido!
         </p>
 
         <a href="#" class="btn-inicio">Inscreva-se</a>
@@ -58,9 +61,9 @@
       <div class="info2">
         <h2>Para empresas</h2>
 
-        <p>A Z.U.verse é um metaverso pensado para aproximar colaboradores das mais variadas empresas.<br>
-        De salas individuais a ambientes compartilhados, aqui você cresce virtualmente e oferece o melhor
-          ao seu time. Expandir nunca foi tão fácil.
+        <p>A Z.U.verse é um metaverso pensado para aproximar colaboradores das mais variadas empresas.
+          De salas individuais a ambientes compartilhados, aqui você cresce virtualmente e oferece o melhor
+          ao seu time. Aqui, expandir é muito fácil.
         </p>       
         
         <a href="#" class="btn-inicio">Comece aqui</a>
@@ -70,28 +73,28 @@
   </section>
 
   <section class="section3">
-    <div class="content3" id="colaborador">
-      <div class="info3">
+    <div class="content2" id="colaborador">
+      <div class="info2">
         <h2>Para colaboradores</h2>
 
-        <p>Recebeu um convite para aquela reunião importante na Z.U. e não dabe como participar? 
+        <p>Recebeu um convite para aquela reunião importante na Z.U. e não sabe como participar? 
           Comece criando seu avatar! É simples, rápido e muito divertido. Vamos nessa?
         </p>       
         
-        <a href="#" class="btn-inicio">Crie seu avatar</a>
+        <a href="#" class="btn-inicio">Vamos lá!</a>
 
       </div>
     </div>    
   </section>
 
   <section class="section4">
-    <div class="content4" id="sobre">
-      <div class="info4">
+    <div class="content2" id="sobre">
+      <div class="info2">
         <h2>Sobre</h2>
 
         <p>A Z.U.verse foi criada para aproximar colaboradores que hoje atuam no modelo home office.
-          Nossa proposta é trazer um universo totalmente virtual para que sua empresa tenha interatividade
-          entre o time. Ficou curioso? Clique abaixo e saiba mais!
+          Nossa proposta é trazer um universo totalmente virtual para que sua empresa tenha uma interatividade
+          real. Ficou curioso? Clique abaixo e saiba mais!
         </p>       
         
         <a href="#" class="btn-inicio">Saiba mais</a>
@@ -101,8 +104,8 @@
   </section>
 
   <section class="section5">
-    <div class="content5" id="contato">
-      <div class="info5">
+    <div class="content2" id="contato">
+      <div class="info2">
 
         <h2>Contato</h2>
         <p>Restou alguma dúvida? Preencha o campo abaixo e entraremos em contato.</p>
@@ -119,6 +122,10 @@
       <a href="#"><i class="fa-brands fa-instagram"></i></a>
       <a href="#"><i class="fa-brands fa-discord"></i></a>
     </div>
+
+    <div class="mybtn">
+      <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
   </section>
 
   <script>
@@ -127,6 +134,16 @@
     let btn3 = document.getElementById('colaborador'); 
     let btn4 = document.getElementById('sobre'); 
     let btn5 = document.getElementById('contato');  
+
+    var mybutton = document.getElementById("mybtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
   </script>
 
 </body>
